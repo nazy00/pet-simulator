@@ -6,12 +6,12 @@ function setHeart() {
     heart.innerHTML = 10;
 }
 function heartUp() {
-    var number = heart.innerHTML;
+    let number = heart.innerHTML;
     number++;
     heart.innerHTML = number;
 }
 function heartDown() {
-    var number = heart.innerHTML;
+    let number = heart.innerHTML;
     number--;
     heart.innerHTML = number;
 }
