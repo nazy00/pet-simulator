@@ -2,9 +2,6 @@ const heart = document.getElementById("heart");
 
 setInterval(heartDown(), 30000);
 
-function setHeart() {
-    heart.innerHTML = 10;
-}
 function heartUp() {
     let number = heart.innerHTML;
     number++;
